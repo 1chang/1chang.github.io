@@ -12,9 +12,6 @@
 <meta name="msapplication-navbutton-color" content="#666666">
 <meta name= "format-detection" content="telephone=no" />
 
-  <link rel="apple-touch-icon"  sizes="72x72"  href="[object Object]">
-  <link rel="apple-touch-icon-precomposed"  sizes="72x72"  href="[object Object]">
-
 
   <meta name="subtitle" content="Another place for those who are historically solitary.">
 
@@ -35,15 +32,15 @@
     author: "Sam Chang",
     baseUrl: "/",
     theme: {
-      scheme: "Gemini",
-      lightbox: ,
-      animate: ,
-      search: false,
+      scheme: "banderole",
+      lightbox: true,
+      animate: true,
+      search: true,
       friends: false,
       reward: false,
       pjax: false,
       lazy: false,
-      toc: [object Object]
+      toc: true
     }
   }
 </script>
@@ -51,13 +48,19 @@
 
 
 
+    
+<link rel="stylesheet" href="/script/lib/lightbox/css/lightbox.min.css">
 
 
 
 
 
+    
+<link rel="stylesheet" href="/syuanpi/syuanpi.min.css">
 
-    <link rel="icon" href="[object Object]">
+
+
+
 
 
 
@@ -96,15 +99,21 @@
   
   <ul class="main-nav-list syuanpi tvIn">
   
+    <li class="menu-item">
+      <a href="javascript:;" id="search-btn" aria-label="Search">
+        <i class="iconfont icon-search"></i>
+      </a>
+    </li>
+  
   
   
     
   
     <li class="menu-item">
-      <a href="/%20%7C%7C%20home" id="home">
+      <a href="/" id="article">
         <span class="base-name">
           
-            HOME
+            ARTICLE
           
         </span>
       </a>
@@ -114,10 +123,36 @@
     
   
     <li class="menu-item">
-      <a href="/archives/%20%7C%7C%20archive" id="archives">
+      <a href="/archives" id="archives">
         <span class="base-name">
           
             ARCHIVES
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="javascript:;" id="tags">
+        <span class="base-name">
+          
+            TAGS
+          
+        </span>
+      </a>
+    </li>
+  
+  
+    
+  
+    <li class="menu-item">
+      <a href="/about" id="about">
+        <span class="base-name">
+          
+            ABOUT
           
         </span>
       </a>
@@ -146,17 +181,33 @@
     <ul class="mobile-header-list">
       
         <li class="mobile-nav-item syuanpi fadeInRightShort back-0">
-          <a href="/%20%7C%7C%20home" >
+          <a href="/" >
             
-              HOME
+              ARTICLE
             
           </a>
         </li>
       
         <li class="mobile-nav-item syuanpi fadeInRightShort back-1">
-          <a href="/archives/%20%7C%7C%20archive" >
+          <a href="/archives" >
             
               ARCHIVES
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-2">
+          <a href="javascript:;" id="mobile-tags">
+            
+              TAGS
+            
+          </a>
+        </li>
+      
+        <li class="mobile-nav-item syuanpi fadeInRightShort back-3">
+          <a href="/about" >
+            
+              ABOUT
             
           </a>
         </li>
@@ -202,6 +253,26 @@
       
 
       
+  <hr class="copy-line">
+  <div class="post-copyright">
+    <div class="copy-author">
+      <span>作者 :</span>
+      <span>Sam Chang</span>
+    </div>
+    <div class="copy-url">
+      <span>地址 :</span>
+      <a href="http://solitorian.blog/2020/02/09/testmysite/">http://solitorian.blog/2020/02/09/testmysite/</a>
+    </div>
+    <div class="copy-origin">
+      <span>来源 :</span>
+      <a href="http://solitorian.blog">http://solitorian.blog</a>
+    </div>
+    <div class="copy-license">
+      
+      著作权归作者所有，转载请联系作者获得授权。
+    </div>
+  </div>
+
     
   </article>
   
@@ -234,6 +305,18 @@
 
   
   
+    
+  
+  <aside class="post-toc">
+    <div class="title"><span>文章导航</span></div>
+    <div class="toc-inner">
+      
+    </div>
+  </aside>
+
+
+
+  
 
 
         </div>
@@ -245,6 +328,26 @@
       <div class="contact-icon">
   
   
+    <a href="https://www.facebook.com/" target="_blank" rel="noopener" class="iconfont icon-facebook" title="facebook"></a>
+  
+    <a href="https://twitter.com/" target="_blank" rel="noopener" class="iconfont icon-twitter" title="twitter"></a>
+  
+    <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="iconfont icon-instagram" title="instagram"></a>
+  
+    <a href="https://weibo.com/" target="_blank" rel="noopener" class="iconfont icon-weibo" title="weibo"></a>
+  
+    <a href="https://www.zhihu.com/people/" target="_blank" rel="noopener" class="iconfont icon-zhihu" title="zhihu"></a>
+  
+    <a href="https://github.com/" target="_blank" rel="noopener" class="iconfont icon-github" title="github"></a>
+  
+    <a href="https://www.linkedin.com/in/" target="_blank" rel="noopener" class="iconfont icon-linkedin" title="linkedin"></a>
+  
+    <a href="https://www.douban.com/people/" target="_blank" rel="noopener" class="iconfont icon-douban" title="douban"></a>
+  
+    <a href="https://medium.com/" target="_blank" rel="noopener" class="iconfont icon-medium" title="medium"></a>
+  
+    <a href="https://www.yuque.com/" target="_blank" rel="noopener" class="iconfont icon-yuque" title="yuque"></a>
+  
 </div>
 
     </div>
@@ -252,7 +355,7 @@
       <div class="copyright">
     <div class="info">
         <span>&copy;</span>
-        <span> ~ 2020</span>
+        <span>2016 ~ 2020</span>
         <span>❤</span>
         <span>Sam Chang</span>
     </div>
@@ -286,16 +389,23 @@
     <span style="text-align:center;font-family:Georgia;"><span style="font-family:Georgia;" id="scrollpercent">1</span>%</span>
 </div>
 
+  <div class="search" id="search">
+    <div class="input">
+      <input type="text" id="search-input" placeholder="搜索一下？" autofocus>
+    </div>
+    <div id="search-result"></div>
+  </div>
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
 
 
 
+  <script></script>
+  <script src="/script/lib/lightbox/js/lightbox.min.js" async></script>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.7/unpacked/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-  <script type="text/x-mathjax-config;executed=true">MathJax.Hub.Config({tex2jax: {inlineMath: [["$","$"], ["\\(","\\)"]]}});</script>
 
 
 
@@ -306,7 +416,7 @@
 
 
   
-<script src="/script/scheme/balance.js"></script>
+<script src="/script/scheme/banderole.js"></script>
 
 
 

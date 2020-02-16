@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://solitorian.blog/"/>
-  <updated>2020-02-09T08:28:50.960Z</updated>
+  <updated>2020-02-09T08:26:41.356Z</updated>
   <id>http://solitorian.blog/</id>
   
   <author>
@@ -15,21 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>testmysite</title>
-    <link href="http://solitorian.blog/2020/02/09/testmysite/"/>
-    <id>http://solitorian.blog/2020/02/09/testmysite/</id>
-    <published>2020-02-09T08:28:50.000Z</published>
-    <updated>2020-02-09T08:28:50.960Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>Hello World</title>

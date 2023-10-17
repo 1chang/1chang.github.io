@@ -1,8 +1,348 @@
-{% extends "_layout.swig" %}
-{% import '_partial/post.swig' as postPage %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
 
-{% block title %} {{ page.title }} · {{ config.title }} {% endblock %}
+  
+  <title>新建獨立博客的一些想法 | The Solitorian</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="这篇日记很大程度上仅是把以前的数条豆瓣广播内容总结到了一起而已。如果你一直在看我的广播，那本文大部分内容可能你都见过。 与本文主题类似的文章在华语世界里其实司空见惯。本文所说并没有什么特殊。如果你认为本文令人失望，那么我将对您表示由衷的敬意，因为这说明您的阅读层次相当之高。 这篇文章并不是真正的技术内容——我相信大家不写博客不是技术壁垒。我只想为没考虑过独立博客的人指出一些上路的可能性。 另外本文">
+<meta property="og:type" content="article">
+<meta property="og:title" content="新建獨立博客的一些想法">
+<meta property="og:url" content="http://atreides.one/whyblog">
+<meta property="og:site_name" content="The Solitorian">
+<meta property="og:description" content="这篇日记很大程度上仅是把以前的数条豆瓣广播内容总结到了一起而已。如果你一直在看我的广播，那本文大部分内容可能你都见过。 与本文主题类似的文章在华语世界里其实司空见惯。本文所说并没有什么特殊。如果你认为本文令人失望，那么我将对您表示由衷的敬意，因为这说明您的阅读层次相当之高。 这篇文章并不是真正的技术内容——我相信大家不写博客不是技术壁垒。我只想为没考虑过独立博客的人指出一些上路的可能性。 另外本文">
+<meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2020-03-01T14:48:48.000Z">
+<meta property="article:modified_time" content="2020-03-03T14:12:13.000Z">
+<meta property="article:author" content="Sam Chang">
+<meta property="article:tag" content="如何自处">
+<meta property="article:tag" content="社交网络">
+<meta property="article:tag" content="数字难民">
+<meta property="article:tag" content="博客">
+<meta property="article:tag" content="教程">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="The Solitorian" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
 
-{% block main %}
-    {{ postPage.render(page) }}
-{% endblock %}
+<meta name="generator" content="Hexo 6.3.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">The Solitorian</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://atreides.one"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main"><article id="post-新建獨立博客的一些想法" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/whyblog" class="article-date">
+  <time datetime="2020-03-01T14:48:48.000Z" itemprop="datePublished">2020-03-01</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      新建獨立博客的一些想法
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>这篇日记很大程度上仅是把以前的数条豆瓣广播内容总结到了一起而已。如果你一直在看我的广播，那本文大部分内容可能你都见过。</p>
+<p>与本文主题类似的文章在华语世界里其实司空见惯。本文所说并没有什么特殊。如果你认为本文令人失望，那么我将对您表示由衷的敬意，因为这说明您的阅读层次相当之高。</p>
+<p><strong>这篇文章并不是真正的技术内容——我相信大家不写博客不是技术壁垒。我只想为没考虑过独立博客的人指出一些上路的可能性。</strong></p>
+<p>另外本文也吸收了一部分豆友在各广播评论区里的反馈。在此对引用或未引用的豆友均表示感谢。</p>
+<h1 id="关于为什么要建个自己的博客"><a href="#关于为什么要建个自己的博客" class="headerlink" title="关于为什么要建个自己的博客"></a>关于为什么要建个自己的博客</h1><p>我在<a href="https://atreides.one/2020/02/27/netvoicenotmatter/">之前一篇博客文章</a>里讲过一个观点，就是<strong>你如果仍然试图通过互联网来寻求表达思想、帮助思考，依然会愿意认真对待言论的话，那么你需要去减少阅读、撰写短内容而尝试长内容。</strong>然而，即便你没有经历过本世纪初有那么几年的“博客时代”，你也可以注意到，现在大多数带有一点社交性质的社区平台，你尝试在上面撰写深思熟虑的长内容，都会觉得有诸多不便。</p>
+<p>需要强调的是，<strong>我这里说的并不只是敏感内容。</strong>你就算老老实实地写生活的感悟，风险也很大。举一个例子：对于大多数社区而言，你的帐号如果因为一些偶然因素（例如手机号换绑时出了什么差错，或是如同某社区那样大量“误封”用户）而“没了”，或许你可以建立新帐号、设法恢复一部分关注者，但你的长内容也是导不出来的。要是你在上面写过很多有趣的东西，这一下子几乎是要把你的生活清零。当然你可以选择自留底稿，但我觉得大多数人不打算这么干，毕竟我们今天都不全是为了自己而写作。——说白了，<strong>在现在我国网络精神生活越来越像游戏的情况下，你如果在“化内之地”认真，那受伤的一定是你；这和你是个什么人根本无关，只是因为各种有本事管你的人都已经遵从游戏化的大趋势、都不可能如你一样认真而已。</strong></p>
+<span id="more"></span>
+
+<p>以前（博客时代刚刚消亡）大家遇到社区管理混乱的时候，往往会选择换个平台。但经历过豆瓣近一年来的奇怪管理的网友想必都意识到，这种换平台的把戏已经没得玩了，过去管理较为宽松的网站骤然进入紧张状态的时候只会比大社区更混乱。进一步讲，大社区因其在审查部门直接挂号而有些特殊待遇，小社区走回封闭冷落的老路，而那些不上不下的中型社区要么关门大吉，要么在审查机制的控制之下变为僵尸社区，用户想被统战都不得。与其玩各种深度猫逮耗子的游戏，浪费很多精力，不如去检讨一下我们对待社区的思路。社区不愿意认真你的心血，那你与其寄托给同样规则下的另一家社区，还不如自己玩。这就是独立博客。（我知道有人会说邮件组，这个事情更困难，要是独立博客也没得玩了再说。）</p>
+<p>简而言之，以前作者的思路是：找个好使的社区，在上面直接写作，再分享到其他社区或者网站。但这在现在即便帐号（且不说单篇内容本身）也动辄就没了的情况之下，<strong>你优先应该抓住自己的内容——社区帐号没了还可以重建并重新呼朋唤友，只要你的内容还在，重建影响力就不困难。</strong>（当然，除非你就是想当个新闻转发机或者拱火小牛，这种情况下即便掌握内容也对你没什么帮助，反正你也不怎么需要比较深刻的思想。）说白了，<strong>独立博客的内容在自己的手里，你博客里可以更专心写作，而在社区只干两件事：(1) 分享链接出来，并 (2) 和那些“只用社区的轻度互联网用户”沟通。</strong></p>
+<p><strong>你本该把更多的精力放在思考和写作上，不该把精力放在打哑谜、说黑话、改拼音、生成图片、倒转、涂花上。</strong>不得已而如后者一般行动，这是无可奈何，但如果有办法可以避免后者，你为何不尝试一下呢？</p>
+<p>此外，对于一些喜欢摆弄的用户而言，独立博客的可定制性一般会更好。豆瓣已经是目前主页定制功能最好的社区了（你们知道主页各模块是可以拖来拖去的对吧），大多数社区几乎没什么定制主页的空间。比如说，你在知乎，主页上就是你的个人时间线。假如你不想展示自己给人点的赞、只想给人展示你写过的专栏文章，那除了不给人提供账号而只提供专栏链接以外几乎没有任何办法。而很多独立博客网站上都可以自己定制主页显示的内容。</p>
+<p>最后要说的是，我2008年开始用MSN Space（知道这个玩意的人恐怕都年纪不小了吧），写过一些蠢东西。后来，这玩意先改名Windows Live Space，接着被关闭，用户迁移到Wordpress或者网易博客，现在后者也没了。<strong>我在收拾自己博客的时候看到十二年以前我写下的生活和想法，这些文字在当时、在这段时间里、在当下都蠢得令人脸红，但我依然会回想起很多美好的事情。</strong>我要说的是，<strong>写博客并不是真的要有真知灼见，并不需要是专家教授，也不是非得有“从小学开始写作文就上范文”的文字水平。对于自身的生活和想法而言，你自己就是最专业、最真切的那个讲述者，也是最能理解作者思路的好读者。</strong>在写作中，你对自己的想法、对事物的理解都会得到梳理，这对你思维的组织大有好处；而在写作后，即便写得不好的文章，你在事后重读时都会感到不一样的意味。<strong>不要怕写得不好，在保护好自己隐私的情况下可以大胆写作。</strong></p>
+<hr>
+<h1 id="不要怕技术问题"><a href="#不要怕技术问题" class="headerlink" title="不要怕技术问题"></a>不要怕技术问题</h1><p>我相信大多数朋友都跟我一样，语言理解能力还凑合，但计算机技能比较白痴。特别是如果你长期把工作重心放在阅读和写作上，计算机和网络的知识可能对你来说就像是健身一样，用“没时间”搪塞自己的禁区。但说实话，搞计算机、搞网络技术的网友们，在知识分享上的热情和实践，比起藏着掖着不说人话、昧着良心瞎说鬼话的文科生整体来讲还是高了很大一截的。</p>
+<p>是的，你的各种问题几乎都在网上能找到现成的讨论。这里说的“各种问题”包括：某个错误信息是怎么造成的？博客应该黑底白字还是白底黑字？等等，你搜一下基本都能找到现成的答案。中文搜不出来就搜英文。</p>
+<p>大多数技术问题，要么在服务提供方的文档里有写（例如github上托管的各种项目基本都有自己的wiki），要么有现成的别人的网站可以拷贝（github可以下载代码自己研究），要么在相关人员的技术博客里有现成的代码可以用，要么可以搜出答案。我以前从不知Linux下怎么修改文件内容，网上一搜，几分钟就学会了——我很笨，全靠谷歌。</p>
+<h1 id="网站会不会被屏蔽？那是不是很麻烦？"><a href="#网站会不会被屏蔽？那是不是很麻烦？" class="headerlink" title="网站会不会被屏蔽？那是不是很麻烦？"></a>网站会不会被屏蔽？那是不是很麻烦？</h1><p>我还是以自己为例。2010年寒假的时候我把自己的博客迁移到wordpress.com，然后寒假结束我返回学校，这时候发现了一件要命事：wordpress.com的服务器在美国，而我所在的学校，其校园网只允许访问“国内网站”，访问国际网站要加钱。这就意味着我没法登录自己的博客。沮丧之下随便瞎玩，居然发现了一个弱点：当时Windows Live旗下有个软件叫Windows Live Writer，可以在本地撰写一篇文档然后代为发布到指定博客网站，这个东西似乎是先通讯到微软自己在上海的服务器再发布出去的，因此如果发布时连接到的加速机房IP属于学校“国内网站”列表，那么就可以正常地发表博客文章。后来Windows Live Writer被微软干掉了，我打开了自己博客上的电子邮件发布文章的功能（Wordpress自带），往一个邮件地址写邮件就可以自动把正文当成文章发出来。说这个故事，是想讲一个道理：<strong>很多独立博客即便受到一些网络阻断的影响，也依然有办法写和读，需要开动脑筋。</strong></p>
+<p>具体而言，防火长城封锁网站时，有针对域名的，有针对IP的。有些时候服务商会阻断带有特定后缀的域名，例如wordpress家的免费域名*.wordpress.com就经常被防火长城、小宽带服务商或国产浏览器屏蔽，不予解析。但现在很多博客服务都支持你换绑自己的域名，如果你这么做了，那么访问就会通畅很多。而如果你自己置办服务器，问题自然更小，可以换IP然后把域名指向新的IP。</p>
+<p>相比之下，<strong>你更应该考虑的是读者</strong>。毕竟大多数读者看到网站连不上，第一反应是不看了；而<strong>我想大家写作的本意肯定不是想把国内互联网轻度用户整个挡掉，毕竟互联网轻度用户不等于大脑轻度用户。</strong>我还记得，我有一次分享了自己的博客文章给我母亲，当时微信浏览器因为解析到了wordpress.com这个域名而强行终止连接，并提示“该网站有违法内容”——尽管那个网站上只有几篇小论文。母亲极为紧张，打电话问我是不是犯法了，这件事促使我一定要换绑域名。我不是特别主张大家非得热捧一些“肯定没法打开”的网站——除非你真的很喜欢。</p>
+<h1 id="是不是会影响我和网友互动？"><a href="#是不是会影响我和网友互动？" class="headerlink" title="是不是会影响我和网友互动？"></a>是不是会影响我和网友互动？</h1><p>大多数博客框架拥有评论功能，有些需要注册帐号，有些只需要填个电子邮件就能留言。我的看法是，评论功能固然好，但没有也没啥（例如github+hexo的解决方案就是基本上没法评论的）。你可以拉到社区里分享的时候讨论，或者留个电子邮件地址让人跟你邮件讨论。反正千百年以来哲学家们都是靠书信沟通的。</p>
+<p>我的观点：<strong>在当下这个环境下，大多数网友互动并不真的必需——同温层以内打气的话可以用点赞代替，同温层以外大部分人没法对话。</strong>如果你看了别人写的东西觉得不爽，一个比较理性的办法是自己写一篇东西去反驳。你可以看看微博等社交网站的评论区，看看有多少真的是有价值的沟通。<strong>我觉得无价值的对话及其展示是导致我们越来越沉溺于社交网络的原因之一。</strong></p>
+<h1 id="最大的麻烦是分发：RSS，邮件乃至社区分享。"><a href="#最大的麻烦是分发：RSS，邮件乃至社区分享。" class="headerlink" title="最大的麻烦是分发：RSS，邮件乃至社区分享。"></a>最大的麻烦是分发：RSS，邮件乃至社区分享。</h1><p>社区不愿为麻烦的人保存内容，这是他们对长内容格外专断的根本原因，也是我觉得应该把长内容从社区转移出去的决定性原因。但<strong>公允地讲，社区对内容的推荐功能，往往对作者来说十分必要，不然没人来看你写的东西。</strong>你不能指望别人靠运气发现你这颗“遗珠”。</p>
+<p>现在绝大多数读者不太可能每天起床后把认识的人的博客都巡礼一遍——尽管以前的人不乏此道，但现在这么干的大概只剩stalker了。<strong>每个独立博客的作者都是一方面不希望太多人来看、另一方面更不希望没人来看。为了避免后者的发生，你仍然需要一个社交平台来分享博客文章的链接。</strong>当然这不尽符合独立博客的本意。一来，社交平台掌握着很多个人信息，在社交平台上活动的stalker们也往往更不懂得如何和其他人保持距离、更愿意去翻人旧账，对作者来说不是很舒服。二来，现在很多社交平台（微博、知乎、豆瓣、etc）或者掌握推送能力的平台（头条等等）希望把内容抓在手里，对外部内容往往做或有意或无意的限制，例如不会推送很广、不提供预览乃至一定程度的限流等等。</p>
+<p>很难说有什么更好的解决办法。我的建议是，如果你不介意博客访问量少，也不在意那些技术上不怎么灵光的读者（比如瓜鸡之类只会看垃圾内容的读者），那么就<strong>一定要开放RSS</strong>。同时，你也要多使用RSS来订阅朋友们的博客。毕竟大家都一把年纪了，写了博客已经不会有暗恋的人来默默关注了。</p>
+<p>有人或许会说，我们可以贴出文字长图来达到传播的目的。但我觉得你近一段时间应该已经意识到，在微信、微博里贴文字长图给你带来的风险一点也不小。还不如贴确保能访问的链接。</p>
+<p>另外，一些博客平台如Wordpress有一个特点是：作者可以用电子邮件来写作，关注者可以电子邮件订阅。这样<strong>即便官网被墙，或者自托管博客IP被屏蔽，作者和读者都无法访问网站本身（当然服务器得在），作者还可以继续写作（发送电子邮件），读者可以继续跟读（接收订阅电子邮件），甚至也可以传播</strong>。</p>
+<hr>
+<h1 id="好了，谈点实践的吧：怎么办？一些方案"><a href="#好了，谈点实践的吧：怎么办？一些方案" class="headerlink" title="好了，谈点实践的吧：怎么办？一些方案"></a>好了，谈点实践的吧：怎么办？一些方案</h1><p>##(1) WordPress.com ##</p>
+<p>如你所读到的那样，我是他家的老用户。这里要注意的是，wordpress本质上是博客框架，是一种技术，而wordpress.com则是wordpress官方自行托管的、使用wordpress技术的博客。网上搜索wordpress大多数结果都说的是这种技术，例如建站指南、插件使用心得之类，很少有说这个网站怎么样的——因为这个网站非常傻瓜，基本很少有人有问题。</p>
+<p>基本原理是访问 <a target="_blank" rel="noopener" href="https://wordpress.com/">https://wordpress.com</a> ，注册账户，然后简单调教一下网站就可以开写。注意：</p>
+<ul>
+<li><p>一定要使用 https 而不是 http ；</p>
+</li>
+<li><p>不要使用微信浏览器等国产浏览器（有可能会主动屏蔽）；</p>
+</li>
+<li><p>如果DNS解析不正常，可以修改hosts文件指定访问地址，一般没问题。</p>
+</li>
+</ul>
+<p>他家换绑自己的域名需要买 personal plan ，一年60美元。他家有个自带域名服务，吹得很凶，声称有自有后缀（TLD）.blog，可以包含在personal plan里云云。但其实这个域名只免第一年，第二年开始需要每年按$22&#x2F;年续费，有点小贵（毕竟自用域名有的只需要几美元）。我建议你要么只用免费版，要么买个personal plan然后换绑自己的域名。</p>
+<p>另外他家提供数据导出服务，随时可以把站点大部分信息下载下来然后自己再建一个Wordpress博客导入进去。我试过，效果不错hhh。</p>
+<p>##(2) WordPress的自托管博客##</p>
+<p>上面说的wordpress.com<br>是官方给你托管的，但你也可以自己在网络服务商如Vultr、Linode、DigitalOcean之类购买虚拟主机（shared host或VPS均可），然后安装Wordpress所需软件，自己搭建博客网站。一些服务商如Bluehost直接就出售定制好wordpress的shared host，还有一些如Linode家直接在买VPS时可以一键安装Wordpress。</p>
+<p>当然，这种博客的定制性比Wordpress.com要更好——想想看，wordpress.com上想安装个插件，必须要购买business plan以上的付费计划，而这些站点都可以直接安装。</p>
+<p>缺点是：</p>
+<ul>
+<li><p>即便有一键安装，你还是要进入命令行设置证书（虽然也不麻烦，let’s encrypted家网站上有傻瓜版指南）。</p>
+</li>
+<li><p>价格。目前Linode家最便宜的vps一年也得$60，如果再用个Akismet（防垃圾评论）之类的服务就得继续加钱。再比如说你想挂个安全证书，费用也是可大可小。总之比wordpress.com 要贵。</p>
+</li>
+<li><p>国内一些网络暴力团伙喜欢以黑客攻击别人服务器为乐，概率问题，遇到了就很麻烦。设置CDN可以降低损失，但又得加钱。我的想法是反正博客内容都有备份，大不了把vps一删，重新架一个了事。</p>
+</li>
+</ul>
+<p>总之就是自己建站的话大多数问题还是要自己解决，虽然现在网上查起来大都不麻烦。（我自己建了一个，不过还没完全调试好，先不放地址了。）</p>
+<p>##(3) 其他博客##</p>
+<p>我看到有朋友推荐了 <a target="_blank" rel="noopener" href="https://write.as/">https://write.as</a> 、<a target="_blank" rel="noopener" href="https://www.weebly.com/">https://www.weebly.com</a> 、 <a target="_blank" rel="noopener" href="https://wix.com/">https://wix.com/</a> 三家。</p>
+<p>第二家已经不能正常访问。第一家注册试用了一下，免费版可以满足一般写作需求，收费版$72一年，可以绑自己的域名。我觉得还不错。这三家的好处都是注册以后简单调教一下（比wordpress.com 还要简单）就可以直接开写。我没测有没有RSS，如果没有的话就不要用。</p>
+<p>如果有其他好的博客网站或框架，也欢迎朋友们多写测评。</p>
+<p>##(3.5) Blogspot &#x2F; Blogger##</p>
+<p>谷歌旗下服务，官方托管的博客完全没法在大陆访问，不存在的。之前有位朋友传授过一个技巧，用换绑域名和调整服务器的办法来搭一个能在境内访问blogger站点，如果你喜欢谷歌的话可以自己研究一下。</p>
+<p>##(4) github pages+hexo##</p>
+<p>技术含量稍高。参见这一篇：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/26625249">https://zhuanlan.zhihu.com/p/26625249</a></p>
+<p>我本人之前完全不会用github，照着这个指南一步步来，搭出来了这个博客： <a href="https://atreides.one/">https://atreides.one</a> 。只要严格遵循它的步骤，它没讲的东西就可以去看相关项目的wiki，应该不至于有啥问题。</p>
+<p>我其实蛮喜欢这个办法的。不用掏钱（当然你得自己买域名），而且静态网页不怕打。</p>
+<p>##(5) 其他写作平台，如Matters##</p>
+<p>这些平台其实就是medium乃至简书的翻版，并不是真正的博客网站，和境内的社区没有太本质的区别。<strong>坦白讲，我并不喜欢这种文章平台。</strong></p>
+<ul>
+<li><p>文章平台大都要求文章有着传播上的意义，可其实我写博客大多数并不是要“写给别人转发”的，不希望那么多人来看，而是希望能在广为传播和绝对私藏之间。</p>
+</li>
+<li><p>Matters的互动性很强。它在去年的政治风波中承载太多的政治讨论，吸引了大量热衷于“网上论政”的境内网民。这让它也出现了如境内社交网络舆论场一样的缺点。说实话我不喜欢这样。我们大多数人上网讨论点什么，是业余生活的一部分，我们不能让这些讨论过多腐蚀我们的正常生活——而你在言论平台上和境内的网虫论政，结果只能是因为你投入精力不如对方多而落下风。</p>
+</li>
+<li><p>这些网站大部分不能正常访问，对读者而言不太方便。</p>
+</li>
+</ul>
+<p>同理，我也不会推荐各位去其他一些境外著名互动社区。</p>
+<p>当然，这些网站也有明显的正面意义。我不反对有朋友喜欢它们，而且也很高兴看到他们在这些网站上找到自存之道。</p>
+<p>##(6) 短内容平台，如Twitter##</p>
+<p><strong>我们就是为了减少短内容才不用微博的，何必“刚离虎口，又入狼窝”呢？</strong></p>
+<hr>
+<p>#还得说说域名#</p>
+<p>当年——大概二十年以前，有一门大生意就是抢注域名。那年头上网冲浪的老鸟经常会吹嘘一些“域名就是名片”、“某某好域名卖了多少万”之类的奇谈怪论，大致就跟今人喜欢谈互联网大佬轶事一样。后来随着TLD（域名后缀）越来越多，域名也就逐渐没那么值钱了。</p>
+<p>不过，<strong>如果你决心不再依靠社区的ID而转靠自己的网站来展示自己，那么很明显的一点是，你依然需要一个自己管理、带有自己印记，而且容易记忆的域名。</strong>这样，<strong>即便你的网站暂时无法访问，但只要你把域名指向新服务器或者新网站，你依然可以重建你的互联网存在，找回一部分朋友们。</strong></p>
+<p>目前关于域名服务商的测评在网上很容易搜到。我自己用的是 namesilo.com，支持支付宝。 .com域名大概$9一个，其他域名从每年十美元、二十美元乃至几百美元不等。你可以没事想想有什么好玩且便宜的域名。我知道有姓王的朋友去抢购.wang结尾的域名（不太推荐，这个域名貌似得去阿里旗下的万网注册），也是很好玩儿的。</p>
+<p>当然，如果你是博客新手，我建议你先注册一个免费博客写着玩儿，玩爽了再考虑域名。</p>
+<hr>
+<p>总之，对于还愿意在网上投入一些严肃且认真的情绪的人，我的建议是：</p>
+<ul>
+<li><p><strong>尽快开一个自己的博客；</strong></p>
+</li>
+<li><p><strong>养成随便写点儿什么的习惯（但要注意保护隐私）；</strong></p>
+</li>
+<li><p><strong>引导朋友们用RSS和邮件订阅的方法关注，也可以在社交网站贴出链接；</strong></p>
+</li>
+<li><p><strong>玩熟了就可以考虑付费购买高级别服务、绑定自己的域名。</strong></p>
+</li>
+</ul>
+<p>作为文章的结尾，我想重复一下我劝大家开博客的初衷：</p>
+<ul>
+<li><p><strong>你可以多为自己的精神世界做些事情，而不是让情绪由别人摆布；</strong></p>
+</li>
+<li><p><strong>你完全应该多关注社会和心灵，它们真切的本身，而不是互联网热议的“社会”和“心灵”；</strong></p>
+</li>
+<li><p><strong>你需要读和写冷静的长内容，而不是喧嚣而瞬间即逝的短内容；</strong></p>
+</li>
+<li><p><strong>社交平台帐号生死越来越随机，你需要一些地方来保持不变的东西，需要一个域名来保证自己活在网络世界的某个角落；</strong></p>
+</li>
+<li><p><strong>与决心相比，技术壁垒不是那么困难。</strong></p>
+</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://atreides.one/whyblog" data-id="clnum4rm20014lkwy4xwmbmre" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E5%A6%82%E4%BD%95%E8%87%AA%E5%A4%84/" rel="tag">如何自处</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E5%AD%97%E9%9A%BE%E6%B0%91/" rel="tag">数字难民</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/" rel="tag">社交网络</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/kalakuligatali" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          西泽保彦《妄想代理》故事情节时间表
+        
+      </div>
+    </a>
+  
+  
+    <a href="/netvoicenotmatter" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">互联网舆论场上的骂架话题，无关真实</div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E5%8D%95/" rel="tag">书单</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E4%B9%A6%E8%AF%84/" rel="tag">书评</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%86%99%E4%BD%9C/" rel="tag">写作</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%8D%9A%E5%AE%A2/" rel="tag">博客</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%A6%82%E4%BD%95%E8%87%AA%E5%A4%84/" rel="tag">如何自处</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BE%AE%E4%BF%A1/" rel="tag">微信</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/" rel="tag">技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%8E%A8%E7%90%86%E5%B0%8F%E8%AF%B4/" rel="tag">推理小说</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%94%BF%E6%B2%BB%E5%8F%B2/" rel="tag">政治史</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%99%E7%A8%8B/" rel="tag">教程</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%95%B0%E5%AD%97%E9%9A%BE%E6%B0%91/" rel="tag">数字难民</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E6%B8%85%E5%8F%B2/" rel="tag">清史</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/" rel="tag">电子书</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/" rel="tag">社交网络</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A5%BF%E6%B3%BD%E4%BF%9D%E5%BD%A6/" rel="tag">西泽保彦</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%A8%80%E8%AE%BA%E5%B9%B3%E5%8F%B0/" rel="tag">言论平台</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%B4%A2%E6%94%BF%E5%8F%B2/" rel="tag">财政史</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/%E4%B9%A6%E5%8D%95/" style="font-size: 10px;">书单</a> <a href="/tags/%E4%B9%A6%E8%AF%84/" style="font-size: 15px;">书评</a> <a href="/tags/%E5%86%99%E4%BD%9C/" style="font-size: 10px;">写作</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 10px;">博客</a> <a href="/tags/%E5%A6%82%E4%BD%95%E8%87%AA%E5%A4%84/" style="font-size: 20px;">如何自处</a> <a href="/tags/%E5%BE%AE%E4%BF%A1/" style="font-size: 10px;">微信</a> <a href="/tags/%E6%8A%80%E6%9C%AF/" style="font-size: 10px;">技术</a> <a href="/tags/%E6%8E%A8%E7%90%86%E5%B0%8F%E8%AF%B4/" style="font-size: 10px;">推理小说</a> <a href="/tags/%E6%94%BF%E6%B2%BB%E5%8F%B2/" style="font-size: 10px;">政治史</a> <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 10px;">教程</a> <a href="/tags/%E6%95%B0%E5%AD%97%E9%9A%BE%E6%B0%91/" style="font-size: 10px;">数字难民</a> <a href="/tags/%E6%B8%85%E5%8F%B2/" style="font-size: 15px;">清史</a> <a href="/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/" style="font-size: 10px;">电子书</a> <a href="/tags/%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C/" style="font-size: 10px;">社交网络</a> <a href="/tags/%E8%A5%BF%E6%B3%BD%E4%BF%9D%E5%BD%A6/" style="font-size: 10px;">西泽保彦</a> <a href="/tags/%E8%A8%80%E8%AE%BA%E5%B9%B3%E5%8F%B0/" style="font-size: 20px;">言论平台</a> <a href="/tags/%E8%B4%A2%E6%94%BF%E5%8F%B2/" style="font-size: 10px;">财政史</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/10/">October 2023</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/08/">August 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/01/">January 2022</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/02/">February 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2017/09/">September 2017</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/Duxiu_CEP">针对读秀图书的 Comic Enhancer Pro 设置一则</a>
+          </li>
+        
+          <li>
+            <a href="/qing_source_read">可以通读的清史史料举隅</a>
+          </li>
+        
+          <li>
+            <a href="/kalakuligatali">西泽保彦《妄想代理》故事情节时间表</a>
+          </li>
+        
+          <li>
+            <a href="/whyblog">新建獨立博客的一些想法</a>
+          </li>
+        
+          <li>
+            <a href="/netvoicenotmatter">互联网舆论场上的骂架话题，无关真实</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2023 Sam Chang<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>

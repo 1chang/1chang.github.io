@@ -1,6 +1,6 @@
 http://atreides.one/about/index.html
-http://atreides.one/duxiu_cep
-http://atreides.one/qing_source_read
+http://atreides.one/duxiu_cep/
+http://atreides.one/qing_source_read/
 http://atreides.one/kalakuligatali/
 http://atreides.one/whyblog/
 http://atreides.one/netvoicenotmatter/

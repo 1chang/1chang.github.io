@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://atreides.one/about/index.html</loc>
+    
+    <lastmod>2023-10-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://atreides.one/duxiu_cep/</loc>
     
     <lastmod>2023-10-17</lastmod>

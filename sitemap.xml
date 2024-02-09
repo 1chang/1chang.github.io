@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://atreides.one/kol_issues/</loc>
-    
-    <lastmod>2024-02-09</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://atreides.one/about/index.html</loc>
     
     <lastmod>2023-10-18</lastmod>
@@ -221,20 +212,6 @@
   
   <url>
     <loc>http://atreides.one/tags/%E6%95%99%E7%A8%8B/</loc>
-    <lastmod>2024-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://atreides.one/tags/%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89/</loc>
-    <lastmod>2024-02-09</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://atreides.one/tags/%E6%B5%81%E9%87%8F%E8%88%86%E8%AE%BA/</loc>
     <lastmod>2024-02-09</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

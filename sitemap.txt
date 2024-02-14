@@ -1,3 +1,4 @@
+http://atreides.one/db_film_score/
 http://atreides.one/kol_issues/
 http://atreides.one/about/index.html
 http://atreides.one/duxiu_cep/
@@ -29,3 +30,6 @@ http://atreides.one/tags/%E5%8D%9A%E5%AE%A2/
 http://atreides.one/tags/%E6%95%99%E7%A8%8B/
 http://atreides.one/tags/%E6%B0%91%E7%B2%B9%E4%B8%BB%E4%B9%89/
 http://atreides.one/tags/%E6%B5%81%E9%87%8F%E8%88%86%E8%AE%BA/
+http://atreides.one/tags/%E8%B1%86%E7%93%A3/
+http://atreides.one/tags/%E8%B1%86%E7%93%A3%E7%94%B5%E5%BD%B1/
+http://atreides.one/tags/%E4%BA%92%E8%81%94%E7%BD%91%E8%88%86%E8%AE%BA/
